@@ -444,7 +444,7 @@ Text Colors
   color: #26c6da !important; }
 
 .text-info {
-  color: #43A047 !important; }
+  color: #1e88e5 !important; }
 
 .text-inverse {
   color: #2f3d4a !important; }
@@ -465,7 +465,7 @@ html body .text-dark {
   color: #67757c; }
 
 html body .text-themecolor {
-  color: #43A047; }
+  color: #009efb; }
 
 /*******************
 Background Colors
@@ -2874,8 +2874,8 @@ Form Material page
 .form-group.error input, .form-group.error select, .form-group.error textarea {
   border: 1px solid #fc4b6c; }
 
-/* .form-group.validate input, .form-group.validate select, .form-group.validate textarea {
-  border: 1px solid #26c6da; } */
+.form-group.validate input, .form-group.validate select, .form-group.validate textarea {
+  border: 1px solid #26c6da; }
 
 .form-group.error .help-block ul {
   padding: 0px;
@@ -6655,6 +6655,10 @@ File: scss
     margin-left: 240px; }
   .footer {
     left: 240px; } } */
+    .page-wrapper {
+      margin-left: 240px; }
+    .footer {
+      left: 240px; } }
 
 @media (max-width: 1023px) {
   /* .page-wrapper {
@@ -8072,4 +8076,3 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
     background-color: rgba(255, 255, 255, 0.5); }
     .switch label input[type=checkbox]:checked + .lever.switch-col-white:after {
       background-color: #ffffff; }
-    }

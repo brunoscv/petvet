@@ -64,7 +64,7 @@
     <!-- Custom CSS -->
     <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
-    <link href="<?php echo base_url() ?>assets/css/colors/blue.css" id="theme" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/colors/green.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     
@@ -122,44 +122,8 @@
                 </div>
             </nav>
         </div>
-        
-        <!-- Topbar header - style you can find in pages.scss -->
-        <header class="home">
-            <div class="container-fluid vcenter">
-                <div class="row">
-                    <!-- <div class="col-md-12 text-center">
-                        <h1 style="line-height:1.5em"><?php echo strtoupper("Pet Veterinário");?></h1>
-                        <form method="get" id="searchHome" action="#">
-                            <input type="hidden" id="rua" name="endereco">
-                            <input type="hidden" id="cidadeId" name="cidade">
-                            <input type="hidden" id="bairroId" name="bairros">
-                            <div class="col-md-8 col-sm-8 col-xs-12 no-padding-horizontal ml-auto mx-auto">
-                                <div class="form-group typeahead">
-                                    <input type="text" id="inputBuscarImovel" class="form-control" placeholder="Pesquise por código, bairro, rua." autocomplete="off">
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-3 col-xs-12 form-group ml-auto mx-auto">
-                            
-                                <a href="<?php echo site_url(); ?>properties" id="btnBuscarImovel" class="btn btn-default text-white" name="btnSubmit"><i class="fa fa-search"></i> Buscar</a>
-                            </div>
-                            
-                        </form>
-                        <p class="text">Imóveis residenciais para Alugar, Vender e Comprar.</p>
-                    </div> -->
-                    <div class="col-md-6">
-                        <img src="<?php echo site_url().'assets/images/pet.png';?>" style="width:85%; float:right;"/>
-                    </div>
-                    <div class="col-md-6">
-                        <h1 style="line-height:1.5em; text-transform: uppercase; text-align:center">Pet Veterin&aacute;rio</h1>
-                        <h2 style="line-height:1.5em; text-transform: uppercase;text-align:center">Agora ficou mais fácil cuidar de quem você ama.</h2>
-                        <h5 style="line-height:1.5em; text-transform: uppercase;text-align:center">Teremos uma de nossas clínicas veterinárias sempre perto de você, 
-                        para cuidar no seu bichinho com tudo o que ele merece.</h5>
-                        <p style="text-align:center; padding: 2em 0; text-transform: uppercase;"><button class="btn btn-success" style="text-transform: uppercase; padding: 1em; font-weight:700">Nossas clínicas parceiras aqui.</button></p style="text-alignn:center;">
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="overlay" style="background: rgba(0,0,0,0.4);"></div> -->
-        </header>
+
+        <!-- GALERIA DE CATEGORIAS -->
         <style type="text/css">
             #inputBuscarImovel {
                 border-radius: 0px;
@@ -217,7 +181,9 @@
                 margin-bottom: 40px;
                 /* color: #fff; */
             }
-            
+            .form-group.validate input, .form-group.validate select, .form-group.validate textarea {
+                border-bottom: 1px solid #26c6da;
+            }
             /* .btn {
                 display: inline-block;
                 padding: 6px 12px;

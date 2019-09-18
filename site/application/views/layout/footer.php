@@ -64,6 +64,7 @@
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/popper.min.js"></script>
     <script src="<?php echo base_url() ?>assets/plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="<?php echo base_url() ?>assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="<?php echo base_url() ?>assets/js/jquery.slimscroll.js"></script>
     <!--Wave Effects -->
@@ -157,6 +158,7 @@
     <script>
     $(document).ready(function() {
         $('#myTable').DataTable();
+        $('#calendario').datepicker();
         $(document).ready(function() {
             var table = $('#example').DataTable({
                 "columnDefs": [{
